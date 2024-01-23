@@ -1,0 +1,16 @@
+#counter {
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+}
+
+.counter-buttons {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}

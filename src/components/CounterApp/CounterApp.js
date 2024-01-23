@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './CounterApp.css';
 
 class CounterApp extends Component {
   constructor(props) {
@@ -22,10 +23,10 @@ class CounterApp extends Component {
 
   render() {
     return (
-      <div>
+      <div id='counter'>
         <h1>Counter: {this.state.count}</h1>
-        <button onClick={this.increment}>Increment</button>
-        <button onClick={this.decrement}>Decrement</button>
+        <button className='counter-buttons' onClick={this.increment}>Increment</button>
+        <button className='counter-buttons'onClick={this.decrement}>Decrement</button>
       </div>
     );
   }

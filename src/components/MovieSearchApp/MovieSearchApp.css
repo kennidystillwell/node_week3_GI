@@ -1,0 +1,14 @@
+#movies {
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: powderblue;
+    color: black;
+}
+
+#resultsList {
+    list-style: none;
+    color: black;
+
+  }
